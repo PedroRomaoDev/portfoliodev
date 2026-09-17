@@ -30,8 +30,8 @@ Desenvolvedor Fullstack Júnior, formado em Análise e Desenvolvimento de Sistem
 | Project | Stack | Highlights |
 |---|---|---|
 | **Durma Mais — Mobile App** | React Native, Expo, Google Play Billing, PostgreSQL, Prisma, FCM, Resend | Published on Google Play, in-app billing, +100 downloads |
-| **Sistema de Infraestrutura Interno** | Next.js, Fastify, TypeScript, Jest, Vitest, Playwright, Cypress | Complete management system serving 500+ active students |
 | **CNPJ Alfanumérico (SERPRO / UCB)** | Node.js, Express, PostgreSQL, Jest, Postman | SERPRO residency, presented at Campus Party Brasília 2025 |
+| **Sistema de Infraestrutura Interno** | Next.js, Fastify, TypeScript, Jest, Vitest, Playwright, Cypress | Complete management system serving 500+ active students |
 | **Repositório Hispano Brasileiro (UnB)** | HTML/CSS/SCSS, PHP, Omeka, Figma | Modernized design & frontend for UnB event platform |
 
 ---
