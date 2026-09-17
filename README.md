@@ -51,5 +51,5 @@ No build step needed:
 
 - **Email:** [pedro7ntj@gmail.com](mailto:pedro7ntj@gmail.com)
 - **Telefone:** +55 (61) 99582-6232
-- **LinkedIn:** [LinkedIn](https://linkedin.com/in/pedro-henrique-romao)
-- **GitHub:** [GitHub](https://github.com/pedro7ntj)
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/pedro-rom%C3%A3o-2615572b3/)
+- **GitHub:** [GitHub](https://github.com/PedroRomaoDev)
