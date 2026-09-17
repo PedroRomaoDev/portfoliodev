@@ -8,7 +8,7 @@ Built with vanilla HTML, CSS, and JavaScript. Zero dependencies, zero build step
 
 ## About
 
-Desenvolvedor Fullstack Júnior, formado em Análise e Desenvolvimento de Sistemas pela Universidade Católica de Brasília (UCB). Experiência prática entregando produtos de ponta a ponta: aplicativo mobile publicado na Google Play com autenticação e pagamentos in-app, sistemas internos de gestão e automações com Next.js, React Native, Node.js, Fastify, TypeScript e PostgreSQL.
+Desenvolvedor Fullstack Júnior, formado em Análise e Desenvolvimento de Sistemas pela Universidade Católica de Brasília (UCB). Atua do levantamento de requisitos ao deploy, priorizando o entendimento dos problemas de negócio antes do código. Experiência no desenvolvimento da infraestrutura interna do Programa Programadores de Futuro (500+ alunos), do aplicativo Android Durma Mais (publicado na Google Play com React Native/Expo e in-app billing) e automações de notas fiscais integradas ao ERP TOTVS Protheus (+400 notas). Homenageado com Moção de Louvor pela CLDF pelo impacto como instrutor de programação. Domínio em React, Next.js, React Native, TypeScript, Node.js, Fastify, PostgreSQL, Prisma, Clean Architecture, SOLID e CI/CD.
 
 ---
 
@@ -30,7 +30,7 @@ Desenvolvedor Fullstack Júnior, formado em Análise e Desenvolvimento de Sistem
 | Project | Stack | Highlights |
 |---|---|---|
 | **Durma Mais — Mobile App** | React Native, Expo, Google Play Billing, PostgreSQL, Prisma, FCM, Resend | Published on Google Play, in-app billing, +100 downloads |
-| **Sistema de Infraestrutura Interno** | Next.js, Fastify, TypeScript, Jest, Vitest, Playwright, Cypress | Complete management system serving 300+ active students |
+| **Sistema de Infraestrutura Interno** | Next.js, Fastify, TypeScript, Jest, Vitest, Playwright, Cypress | Complete management system serving 500+ active students |
 | **CNPJ Alfanumérico (SERPRO / UCB)** | Node.js, Express, PostgreSQL, Jest, Postman | SERPRO residency, presented at Campus Party Brasília 2025 |
 | **Repositório Hispano Brasileiro (UnB)** | HTML/CSS/SCSS, PHP, Omeka, Figma | Modernized design & frontend for UnB event platform |
 
