@@ -459,6 +459,45 @@
       box-shadow: 0 24px 48px rgba(0,0,0,0.75), 0 0 25px rgba(52,211,153,0.3);
     }
 
+    .project-desktop-track {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      overflow-x: auto;
+      padding: 10px 4px 18px;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(52, 211, 153, 0.4) transparent;
+    }
+    .project-desktop-track::-webkit-scrollbar { height: 6px; }
+    .project-desktop-track::-webkit-scrollbar-thumb { background: rgba(52, 211, 153, 0.4); border-radius: 999px; }
+
+    .desktop-frame {
+      flex: 0 0 auto;
+      width: clamp(300px, 60vw, 440px);
+      aspect-ratio: 16 / 10;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #121212;
+      border: 1px solid rgba(255,255,255,0.14);
+      box-shadow: 0 16px 36px rgba(0,0,0,0.6), 0 0 15px rgba(15,122,77,0.12);
+      scroll-snap-align: center;
+      transition: transform .35s var(--ease), box-shadow .35s var(--ease), border-color .35s var(--ease);
+      position: relative;
+    }
+    .desktop-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .desktop-frame:hover {
+      transform: translateY(-6px) scale(1.02);
+      border-color: var(--accent-2);
+      box-shadow: 0 24px 48px rgba(0,0,0,0.75), 0 0 25px rgba(52,211,153,0.3);
+    }
+
     /* ── Skills ── */
     .skills-marquee-wrap {
       width: 100vw; position: relative; left: 50%; right: 50%; margin: 40px -50vw 0; overflow: hidden;
@@ -935,6 +974,28 @@
               </div>
             </div>
             <span class="project-arrow">↗</span>
+
+            <!-- Showcase do Projeto SERPRO -->
+            <div class="project-showcase-container">
+              <div class="project-showcase-header">
+                <span class="project-showcase-label" data-en="Residency &amp; Workshop (SERPRO)" data-pt="Residência &amp; Oficina (SERPRO / Campus Party)">Residência &amp; Oficina (SERPRO / Campus Party)</span>
+                <span class="project-showcase-hint" data-en="Deslize para ver mais →" data-pt="Deslize para ver mais →">Deslize para ver mais →</span>
+              </div>
+              <div class="project-desktop-track">
+                <div class="desktop-frame">
+                  <img src="assets/serpro1.png" alt="SERPRO Project Screenshot 1 — Campus Party Workshop" loading="lazy">
+                </div>
+                <div class="desktop-frame">
+                  <img src="assets/serpro2.png" alt="SERPRO Project Screenshot 2 — API &amp; Architecture" loading="lazy">
+                </div>
+                <div class="desktop-frame">
+                  <img src="assets/serpro3.png" alt="SERPRO Project Screenshot 3 — Presentation" loading="lazy">
+                </div>
+                <div class="desktop-frame">
+                  <img src="assets/serpro4.png" alt="SERPRO Project Screenshot 4 — Code &amp; Architecture" loading="lazy">
+                </div>
+              </div>
+            </div>
           </div>
 
           <a href="https://hispano-brasileiro.com.br" target="_blank" class="project-item reveal">
